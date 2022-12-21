@@ -1,0 +1,36 @@
+.scanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    padding-top: 3rem;
+}
+
+.scan_title {
+    display: flex;
+    justify-content: center;
+}
+
+.scan_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .scanner {
+      width: 100%;
+    }
+  }
+
+  @media (min-width:600px) and (max-width:1024px) {
+    .scanner {
+      width: 60%;
+    }
+  }
+

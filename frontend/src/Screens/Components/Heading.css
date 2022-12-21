@@ -1,0 +1,17 @@
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .start_scanning {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10rem;
+    gap: 20px;
+  }
+  
+  .logo {
+    width: 90%;
+  }
